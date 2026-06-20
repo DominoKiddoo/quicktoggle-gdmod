@@ -8,7 +8,7 @@
 	},
 	"id": "dominodev.quick-toggle",
 	"name": "Quick CBF/CBS/COS Toggle",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "dominodev",
 	"description": "Quick-toggle CBF/CBS/COS from the pause menu",
 	"dependencies": {
@@ -18,5 +18,12 @@
 		"sprites": ["resources/toggleButton.png"]
 	},
 
+	"settings": {
+		"toggle-type":{
+			"type": "string",
+			"default": "Toggle",
+			"one-of": ["Toggle", "Granular"]
+		}
+	},
 	"links": {"source": "https://github.com/DominoKiddoo/quicktoggle-gdmod"}
 }

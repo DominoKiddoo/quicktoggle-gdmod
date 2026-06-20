@@ -2,6 +2,17 @@
 
 Quickly toggle <co>Click Between Frames</c>, <co>Click Between Steps</c>, and <co>Click on Steps</c> from the <cg>pause menu</c>!
 Dont worry! This mod works just fine if you dont have CBF installed!
+
+There are **2 modes** that can be changed <cy>from the settings</c>.
+
+**<cb>Toggle</c>**
+Toggle mod will check if CBF, CBS or COS is on. If any of them are, it will switch them off and save which you had enabled. Then when you go to turn it on again, it remembers what you originally had enabled.
+
+**<cb>Granular</c>**
+Opens up a custom menu where you can individually select and de-select what you want enabled.
+
+
+
 Made to save me literally 5 clicks, because the bot i use wont let me have them on lmao
 
 
