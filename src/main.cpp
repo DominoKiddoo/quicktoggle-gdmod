@@ -23,7 +23,8 @@ class $modify(MyPauseLayer, PauseLayer) {
 
 		);
 		toggleBtn->setID("toggle-button"_spr);
-		auto bottomMenu = this->getChildByID("bottom-button-menu");
+		
+		auto bottomMenu = this->m_mainLayer->getChildByID("bottom-button-menu");
 
 		if (bottomMenu) {
 			bottomMenu->addChild(toggleBtn);
